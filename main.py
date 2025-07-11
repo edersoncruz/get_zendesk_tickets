@@ -17,7 +17,7 @@ auth = (f"{email}/token", api_token)
 # URL base para tickets filtrados por grupo
 import requests
 
-url = "https://hunterdouglas904.zendesk.com/api/v2/users/me.json"  # API pública de exemplo
+url = "https://{subdomain}.zendesk.com/api/v2/users/me.json"  # API pública de exemplo
 
 response = requests.get(url)
 
