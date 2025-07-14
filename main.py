@@ -46,5 +46,5 @@ with open(JSON_PATH, "r", encoding="utf-8") as f:
 # Converte os tickets para um DataFrame
 df = pd.DataFrame(dados)
 
-# # Salva em um arquivo Excel
+# Salva em um arquivo Excel
 df.to_excel(EXCEL_PATH, index=False)
