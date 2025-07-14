@@ -5,7 +5,7 @@ import requests
 JSON_PATH = 'files/tickets.json'
 EXCEL_PATH = 'files/output.xlsx'
 
-# Configurações da API
+# Configurações da API teste
 subdomain = "seusubdominio"             # seu subdomínio Zendesk
 email = "seuemail@exemplo.com"          # seu e-mail de login
 api_token = "seu_api_token"             # seu token da API Zendesk
